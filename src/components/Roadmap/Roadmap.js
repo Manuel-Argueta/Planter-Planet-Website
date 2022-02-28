@@ -9,7 +9,7 @@ function Roadmap() {
             <h4>Phase 1</h4>
                 <p>Deploy Planter Game with Core Features For Testing</p>
             <h4>Phase 2</h4>
-                <p>Implement ERC7212 Functionality for Mature Trees</p>
+                <p>Implement ERC721 Functionality for Mature Trees</p>
             <h4>Phase 3</h4>
                 <p> Partner with Environmental Organizations to plants REAL trees worldwide</p>
             <h4>Phase 4</h4>
