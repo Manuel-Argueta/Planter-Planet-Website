@@ -1,19 +1,52 @@
 import React from 'react';
 import './Roadmap.css'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import timelineImage from '../../assets/Timeline.png'
+import timelineIcon1 from '../../assets/TimelineIcon1.png'
+import timelineIcon2 from '../../assets/TimelineIcon2.png'
+import timelineIcon3 from '../../assets/TimelineIcon3.png'
+import timelineIcon4 from '../../assets/TimelineIcon4.png'
 
 
 function Roadmap() {
     return (
         <div id = "roadmapContainer">
-            <h2>Roadmap</h2>
-            <h4>Phase 1</h4>
-                <p>Deploy Planter Game with Core Features For Testing</p>
-            <h4>Phase 2</h4>
-                <p>Implement ERC7212 Functionality for Mature Trees</p>
-            <h4>Phase 3</h4>
-                <p> Partner with Environmental Organizations to plants REAL trees worldwide</p>
-            <h4>Phase 4</h4>
-                <p>Launch Game to Public</p>
+            <h2 id = "roadmapHeader">Planet Planter Roadmap</h2>
+            <div id = "roadmapSubContainer">
+            <Container>
+                <Row className = "justify-content-md-right">
+                    <Col>
+                        <img className = "timelineIconTop" src = {timelineIcon1}/>
+                    </Col>
+                    <Col>
+                        <p className = "roadmapContentTop">Implement ERC721 Fucntionaility for Mature Trees and NFT Minting</p>
+                    </Col>
+                    <Col>    
+                        <img className = "timelineIconTop" src = {timelineIcon3}/>
+                    </Col>
+                    <Col>
+                        <p className = "roadmapContentTop">Launch Beta Version of Planet Planter to Public for Testing</p>
+                    </Col>
+                </Row>
+                        <img id = "timeline" src = {timelineImage}/>
+                <Row>
+                    <Col>
+                        <p className = "roadmapContentBottom">Deploy Planet Planter with Core Game Features</p>
+                    </Col>
+                    <Col>
+                        <img className = "timelineIconBottom" src = {timelineIcon2}/>
+                    </Col>
+                    <Col>
+                        <p className = "roadmapContentBottom">Establish partnership with environmental organizations(s) to plant trees worldwide</p>
+                    </Col>
+                    <Col> 
+                        <img className = "timelineIconBottom" src = {timelineIcon4}/>
+                    </Col>
+                </Row>
+            </Container> 
+            </div>
        </div>
     )
 

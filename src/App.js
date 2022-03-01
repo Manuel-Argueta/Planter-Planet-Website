@@ -5,6 +5,7 @@ import Landing from './components/Landing/Landing';
 import Story from './components/Story/Story';
 import Problem from './components/Problem/Problem';
 import Roadmap from './components/Roadmap/Roadmap.js';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Story />
     <Problem />
     <Roadmap />
+    <Footer />
     </div>
   );
 }

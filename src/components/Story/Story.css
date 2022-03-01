@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .Container {
-    text-align: left;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
+
+#storyHeader {
+    color: #27AE60;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.storyContent {
+    font-weight: 200;
+    color: #828282;
+    font-size: 25px;
+}
+
+#storyGraphic {
+} 
+
