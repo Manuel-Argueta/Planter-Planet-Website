@@ -4,11 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
 import App from './App';
+import Navigation from './components/Navigation/Navigation';
+import Footer from './components/Footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navigation />
     <App />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

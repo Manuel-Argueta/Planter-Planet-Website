@@ -3,7 +3,7 @@ import "./Problem.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import farmingImage from "../../assets/Farming.png";
+import farmingImage from "../../../assets/Farming.png";
 
 function Problem() {
   return (

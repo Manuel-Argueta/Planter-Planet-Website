@@ -1,21 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navigation';
-import Landing from './components/Landing/Landing';
-import Story from './components/Story/Story';
-import Problem from './components/Problem/Problem';
-import Roadmap from './components/Roadmap/Roadmap.js';
-import Footer from './components/Footer/Footer'
+
+import Landing from './components/Home/Landing/Landing';
+import Story from './components/Home//Story/Story';
+import Problem from './components/Home//Problem/Problem';
+import Roadmap from './components/Home//Roadmap/Roadmap.js';
 
 function App() {
   return (
     <div>
-    <Navigation />
     <Landing />
     <Story />
     <Problem />
     <Roadmap />
-    <Footer />
     </div>
   );
 }

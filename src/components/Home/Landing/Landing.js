@@ -1,6 +1,6 @@
 import React from 'react';
 import './Landing.css'
-import earthImage from '../../assets/Earth.png'
+import earthImage from '../../../assets/Earth.png'
 
 function Landing() {
     return (
