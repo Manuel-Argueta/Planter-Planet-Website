@@ -7,7 +7,7 @@ function Navigation() {
         <button className = "navList">Home</button>
         <button className = "navList">About</button>
         <button className = "navList">Contact</button>
-        <p id = "navTitle" >Planet Planter</p>
+        <p id = "navTitle" >Planter Planet</p>
       <button id = "playButton">Play Now</button>
       </div>
   )

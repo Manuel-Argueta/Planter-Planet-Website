@@ -14,7 +14,7 @@ function Roadmap() {
     return (
         <div id = "roadmapContainer">
             <div id = "roadmapSubContainer">
-            <h2 id = "roadmapHeader"><u>Planet Planter Roadmap</u></h2>
+            <h2 id = "roadmapHeader"><u>Planter Planet Roadmap</u></h2>
             <Container>
                 <Row className = "justify-content-md-right">
                     <Col>

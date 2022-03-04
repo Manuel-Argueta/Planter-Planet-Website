@@ -14,8 +14,8 @@ function Footer() {
     return (
         <div id = "footerContainer">
                 <div>
-                <p id = "copyright">@2022 Planet Planter</p>
-                <p id = "footerTitle" >Planet Planter</p>
+                <p id = "copyright">@2022 Planter Planet</p>
+                <p id = "footerTitle" >Planter Planet</p>
                 <button id = "playButton">Play Now</button>
                 </div>
                 <hr></hr>

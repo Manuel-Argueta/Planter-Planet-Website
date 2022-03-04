@@ -17,7 +17,7 @@ function Problem() {
           <h2 id="problemHeader">Solving Deforestation</h2>
           <p className="problemContent">
             The mission of our organization is to solve
-            mass deforestation around the world! Planet Planter is our world of 
+            mass deforestation around the world! Planeter Planet is our world of 
           </p>
           <p className="problemContent">
             The procedes from the game will support organizations to plant more

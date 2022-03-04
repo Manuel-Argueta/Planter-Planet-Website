@@ -39,7 +39,8 @@
     height: 40px;
     background-color: transparent;
     border-radius: 2px;
-    border: 1px black solid;
+    border: 1px #828282 solid;
+    color: #828282;
     width: 40%; 
 
 }
