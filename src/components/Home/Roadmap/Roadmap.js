@@ -13,8 +13,8 @@ import timelineIcon4 from '../../../assets/TimelineIcon4.png'
 function Roadmap() {
     return (
         <div id = "roadmapContainer">
-            <h2 id = "roadmapHeader">Planet Planter Roadmap</h2>
             <div id = "roadmapSubContainer">
+            <h2 id = "roadmapHeader"><u>Planet Planter Roadmap</u></h2>
             <Container>
                 <Row className = "justify-content-md-right">
                     <Col>

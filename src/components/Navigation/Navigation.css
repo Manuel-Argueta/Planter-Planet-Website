@@ -10,9 +10,9 @@
 
 #navTitle {
     display:inline-block;
-    color: #219653;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    color: #175F1C;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .navList {
@@ -21,8 +21,9 @@
     border:none;
     margin-right: 50px;
     margin-left: 20px;
-    color: #27AE60; 
+    color: #175F1C; 
     background-color: transparent;
+    font-size: 20px;
 }
 
 #playButton {
@@ -31,7 +32,6 @@
     margin-right: 5%;
     display: block;
     width: 150px;
-    font-family: 'Roboto', sans-serif;
     background: #219653;
     border: none;
     border-radius: 2px; 

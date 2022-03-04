@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 #footerContainer {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px;
+    font-family: 'VT323', monospace;
+    margin-top: 150px;
     padding: 40px;
     height: 50px;
     white-space: nowrap;
@@ -15,23 +14,26 @@
     float: left;
     display: block;
     color: #939EA4;
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 20px;
 }
-#navTitle {
+#footerTitle {
+    font-family: 'VT323', monospace;
     display:inline-block;
-    color: #219653;
-    font-size: 20px;
+    color: #0f3f13;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.navList {
+.footerList {
+    font-family: 'VT323', monospace;
     float: left;
     display: block;
     border:none;
+    font-size: 20px;
     margin-top: 10px;
     margin-right: 50px;
-    color: #27AE60; 
+    color: #0f3f13; 
     background-color: transparent;
 }
 
@@ -41,17 +43,17 @@
     border:none;
     margin-top: 10px;
     margin-right: 50px;
-    color: #27AE60; 
+    color: #175F1C; 
     background-color: transparent;
 }
 
 #playButton {
+    font-family: 'VT323', monospace;
     color: white;
     float: right;
     margin-right: 5%;
     display: block;
-    width: 150px;
-    font-family: 'Roboto', sans-serif;
+    width: 200px;
     background: #219653;
     border: none;
     border-radius: 2px; 

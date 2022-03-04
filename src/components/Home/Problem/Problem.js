@@ -3,20 +3,21 @@ import "./Problem.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import farmingImage from "../../../assets/Farming.png";
+import deforestationImage from "../../../assets/Deforestation.png";
 
 function Problem() {
   return (
+    <div id = "problemShell">
     <Container>
       <Row>
         <Col>
-          <img id="farmingImage" src={farmingImage} />
+          <img id="deforestationImage" src={deforestationImage} />
         </Col>
         <Col>
           <h2 id="problemHeader">Solving Deforestation</h2>
           <p className="problemContent">
-            The mission of our organization is to use Planet Planter to solve
-            mass deforestation around the world
+            The mission of our organization is to solve
+            mass deforestation around the world! Planet Planter is our world of 
           </p>
           <p className="problemContent">
             The procedes from the game will support organizations to plant more
@@ -31,6 +32,7 @@ function Problem() {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 }
 

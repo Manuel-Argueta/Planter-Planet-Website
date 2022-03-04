@@ -5,8 +5,12 @@
     overflow: hidden;
 }
 
+#storyShell {
+    margin-top: 150px;
+}
+
 #storyHeader {
-    color: #27AE60;
+    color: #175F1C;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -17,6 +21,11 @@
     font-size: 25px;
 }
 
-#storyGraphic {
+#toolGraphic {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 75%;
+    /* margin-top: 25%; */
 } 
 

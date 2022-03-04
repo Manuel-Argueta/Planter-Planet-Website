@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto:wght@500&display=swap');
 
 #roadmapContainer {
     background-image: url('../../../assets/Rectangle.png');
@@ -6,41 +5,38 @@
     background-size: 100% 100%;
     height: 1000px;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #roadmapSubContainer {
-    height: 500px;
+    height: fit-content;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 10%;
+    margin-top: 150px;
 }
 
 
 #roadmapHeader {
     text-align: center;
-    color: #27AE60;
+    font-weight: bold;
+    color: #0f3f13;
+    font-size: 40px;
+    margin-bottom: 50px;
     
 }
 
 .roadmapContentTop {
     text-align: center;
-    font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
-    font-weight: bold;
-    color: #219653;
+    color: #000000;
 }
 
 
 .roadmapContentBottom {
     text-align: center;
-    font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
-    font-weight: bold;
-    color: #219653;
+    color: #000000;
     padding: 70px 0;
 }
 

@@ -15,14 +15,14 @@ function Footer() {
         <div id = "footerContainer">
                 <div>
                 <p id = "copyright">@2022 Planet Planter</p>
-                <p id = "navTitle" >Planet Planter</p>
+                <p id = "footerTitle" >Planet Planter</p>
                 <button id = "playButton">Play Now</button>
                 </div>
                 <hr></hr>
                 <div>
-                <button className = "navList">Home</button>
-                <button className = "navList">About</button>
-                <button className = "navList">Contact</button>
+                <button className = "footerList">Home</button>
+                <button className = "footerList">About</button>
+                <button className = "footerList">Contact</button>
                 <button className = "socialList"><img src = {facebookIcon}/></button>
                 <button className = "socialList"><img src = {instaIcon}/></button>
                 <button className = "socialList"><img src = {twitterIcon}/></button>
