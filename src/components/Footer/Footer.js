@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css'
+import {NavLink} from "react-router-dom";
+
 import facebookIcon from '../../assets/FacebookIcon.png'
 import instaIcon from '../../assets/InstagramIcon.png'
 import twitterIcon from '../../assets/TwitterIcon.png'
@@ -20,9 +22,9 @@ function Footer() {
                 </div>
                 <hr></hr>
                 <div>
-                <button className = "footerList">Home</button>
-                <button className = "footerList">About</button>
-                <button className = "footerList">Contact</button>
+                <NavLink to = "/" className = "footerList">Home</NavLink >
+                <NavLink to = "/about"className = "footerList">About</NavLink >
+                <NavLink to = "/contact" className = "footerList">Contact</NavLink >
                 <button className = "socialList"><img src = {facebookIcon}/></button>
                 <button className = "socialList"><img src = {instaIcon}/></button>
                 <button className = "socialList"><img src = {twitterIcon}/></button>

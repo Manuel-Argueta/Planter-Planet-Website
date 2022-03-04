@@ -16,6 +16,7 @@
 }
 
 .navList {
+    text-decoration: none;
     float:left ;
     display:inline-block;
     border:none;
@@ -24,6 +25,10 @@
     color: #175F1C; 
     background-color: transparent;
     font-size: 20px;
+}
+
+.navList:hover {
+    color: #175f1cb9
 }
 
 #playButton {
