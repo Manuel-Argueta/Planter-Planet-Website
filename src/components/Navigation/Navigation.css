@@ -9,19 +9,19 @@
 }
 
 #navTitle {
-    display:inline-block;
     color: #175F1C;
-    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .navList {
-    text-decoration: none;
-    float:left ;
+    text-decoration: none;;
     display:inline-block;
     border:none;
-    margin-right: 50px;
-    margin-left: 20px;
+    margin: 50px;
+    margin-top: 0px;
     color: #175F1C; 
     background-color: transparent;
     font-size: 20px;

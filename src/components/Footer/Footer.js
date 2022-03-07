@@ -25,10 +25,8 @@ function Footer() {
                 <NavLink to = "/" className = "footerList">Home</NavLink >
                 <NavLink to = "/about"className = "footerList">About</NavLink >
                 <NavLink to = "/contact" className = "footerList">Contact</NavLink >
-                <button className = "socialList"><img src = {facebookIcon}/></button>
                 <button className = "socialList"><img src = {instaIcon}/></button>
                 <button className = "socialList"><img src = {twitterIcon}/></button>
-                <button className = "socialList"><img src = {linkedInIcon}/></button>
                 <button className = "socialList"><img src = {youtubeIcon}/></button>
                 </div>
         </div>

@@ -3,8 +3,7 @@ import './Story.css';
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import storyGraphic from '../../../assets/StoryGraphic.png'
-import toolGraphic from '../../../assets/ToolGraphic.png'
+import progressGraphic from '../../../assets/treeProgressGraphic.png'
 
 function Story() {
   return (
@@ -29,7 +28,7 @@ function Story() {
             tree corresponding to its unique genetic makeup.
           </p>
         </Col>
-        <Col> <img id = "toolGraphic" src = {toolGraphic}/></Col>
+        <Col> <img id = "progressGraphic" src = {progressGraphic}/></Col>
       </Row>
     </Container>
     </div>
