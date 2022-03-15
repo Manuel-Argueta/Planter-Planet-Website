@@ -1,0 +1,43 @@
+#aboutContainer {
+    margin-top: 50px;
+}
+
+.founderIcon {
+    border-radius: 50%;
+    border: rgb(51, 47, 47) 3px solid;
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    color: rgb(216, 216, 216);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.founderTitle {
+    color: rgb(216, 216, 216);
+    font-size: 200%;
+    display: block;
+    text-align: center;
+}
+
+.founderDescription {
+    color: #219653;
+    font-size: 200%;
+    display: block;
+    text-align: center;
+}
+
+.founderStory {
+    color: rgb(216, 216, 216);
+    font-size: 130%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}

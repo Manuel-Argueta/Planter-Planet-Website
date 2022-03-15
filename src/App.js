@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 import Landing from './components/Home/Landing/Landing';
-import Story from './components/Home//Story/Story';
-import Problem from './components/Home//Problem/Problem';
-import Roadmap from './components/Home//Roadmap/Roadmap.js';
+import Story from './components/Home/Story/Story';
+import Problem from './components/Home/Problem/Problem';
+import Roadmap from './components/Home/Roadmap/Roadmap';
 
 function App() {
   return (

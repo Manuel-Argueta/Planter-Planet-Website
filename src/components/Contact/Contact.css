@@ -1,0 +1,18 @@
+#contactDescription {
+    color: rgb(216,216,216);
+    border: #219653 2px solid;
+    border-radius: 15px;
+    font-size: 300%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+#joinDiscord {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}

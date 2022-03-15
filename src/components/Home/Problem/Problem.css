@@ -7,14 +7,14 @@
     margin-top: 150px;
 }
 #problemHeader {
-    color: #175F1C;
+    color: #219653;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .problemContent {
     font-weight: 200;
-    color: #828282;
+    color: rgb(216, 216, 216);
     font-size: 25px;
     margin-left: 10%;
 }

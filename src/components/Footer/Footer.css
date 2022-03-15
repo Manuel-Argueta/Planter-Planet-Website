@@ -13,14 +13,14 @@
 #copyright {
     float: left;
     display: block;
-    color: #939EA4;
+    color: rgb(216, 216, 216);
     font-size: 20px;
     margin-right: 20px;
 }
 #footerTitle {
     font-family: 'VT323', monospace;
     display:inline-block;
-    color: #0f3f13;
+    color: #033b1b;
     font-size: 30px;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@
     font-size: 20px;
     margin-top: 10px;
     margin-right: 50px;
-    color: #0f3f13; 
+    color: rgb(216, 216, 216); 
     background-color: transparent;
 }
 
@@ -41,6 +41,7 @@
     float: right;
     display: block;
     border:none;
+    width: 1%;
     margin-top: 10px;
     margin-right: 50px;
     color: #175F1C; 
