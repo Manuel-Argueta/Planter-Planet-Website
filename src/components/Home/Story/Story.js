@@ -3,10 +3,11 @@ import './Story.css';
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import storyGraphic from '../../assets/StoryGraphic.png'
+import progressGraphic from '../../../assets/treeProgressGraphic.png'
 
 function Story() {
   return (
+    <div id = "storyShell"> 
     <Container>
       <Row>
         <Col>
@@ -15,22 +16,22 @@ function Story() {
             You are the last farmer on earth, and you must save mother nature by
             planting trees!
           </p>
-          <p className = "storyContent">Each Click will ad XP to your randomly genitically
-            generated seed. The XP will help your tree grow and reach maximum
-            maturity! 
+          <p className = "storyContent">Each click will add XP to your current tree seed! Expand 
+          and gain the ability to farm multiple trees at once! The XP will help your tree grow and reach maximum maturity! 
           </p>
           <p className = "storyContent">
-            An in-game currency will be developed to purchase farming
-            labor, more seeds, and better fertilizer to grow plants faster
+            The in-game currency SOIL will be used to purchase automated farming
+            labor,more seeds, and better fertilizer to grow plants faster.
           </p>
           <p className = "storyContent">
             Once your tree reaches a mature age, you will be gifted an NFT of that
-            tree corresponding to its unique genetic makeup
+            tree corresponding to its unique genetic makeup.
           </p>
         </Col>
-        <Col> <img id = "storyGraphic" src = {storyGraphic}/></Col>
+        <Col> <img id = "progressGraphic" src = {progressGraphic}/></Col>
       </Row>
     </Container>
+    </div>
   );
 }
 

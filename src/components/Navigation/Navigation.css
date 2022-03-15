@@ -9,20 +9,26 @@
 }
 
 #navTitle {
-    display:inline-block;
     color: #219653;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .navList {
-    float:left ;
+    text-decoration: none;;
     display:inline-block;
     border:none;
-    margin-right: 50px;
-    margin-left: 20px;
-    color: #27AE60; 
+    margin: 50px;
+    margin-top: 0px;
+    color: #219653; 
     background-color: transparent;
+    font-size: 20px;
+}
+
+.navList:hover {
+    color: #175f1cb9
 }
 
 #playButton {
@@ -31,7 +37,6 @@
     margin-right: 5%;
     display: block;
     width: 150px;
-    font-family: 'Roboto', sans-serif;
     background: #219653;
     border: none;
     border-radius: 2px; 

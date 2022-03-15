@@ -5,18 +5,28 @@
     overflow: hidden;
 }
 
+#storyShell {
+    margin-top: 150px;
+}
+
 #storyHeader {
-    color: #27AE60;
+    color: #219653;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .storyContent {
     font-weight: 200;
-    color: #828282;
+    color: rgb(216, 216, 216);
     font-size: 25px;
 }
 
-#storyGraphic {
+#progressGraphic {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    display: block;
+    width: 100%;
+    /* margin-top: 25%; */
 } 
 

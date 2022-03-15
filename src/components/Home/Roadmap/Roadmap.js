@@ -3,18 +3,18 @@ import './Roadmap.css'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import timelineImage from '../../assets/Timeline.png'
-import timelineIcon1 from '../../assets/TimelineIcon1.png'
-import timelineIcon2 from '../../assets/TimelineIcon2.png'
-import timelineIcon3 from '../../assets/TimelineIcon3.png'
-import timelineIcon4 from '../../assets/TimelineIcon4.png'
+import timelineImage from '../../../assets/Timeline.png'
+import timelineIcon1 from '../../../assets/TimelineIcon1.png'
+import timelineIcon2 from '../../../assets/TimelineIcon2.png'
+import timelineIcon3 from '../../../assets/TimelineIcon3.png'
+import timelineIcon4 from '../../../assets/TimelineIcon4.png'
 
 
 function Roadmap() {
     return (
         <div id = "roadmapContainer">
-            <h2 id = "roadmapHeader">Planet Planter Roadmap</h2>
             <div id = "roadmapSubContainer">
+            <h2 id = "roadmapHeader"><u>Planter Planet Roadmap</u></h2>
             <Container>
                 <Row className = "justify-content-md-right">
                     <Col>

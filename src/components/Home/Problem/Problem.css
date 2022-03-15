@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .Container {
-    font-family: 'Roboto', sans-serif;
     overflow: hidden;
     margin-bottom: 100px;
 }
-
+#problemShell {
+    margin-top: 150px;
+}
 #problemHeader {
-    color: #27AE60;
+    color: #219653;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .problemContent {
     font-weight: 200;
-    color: #828282;
+    color: rgb(216, 216, 216);
     font-size: 25px;
     margin-left: 10%;
 }
 
-#farmingImage {
+#deforestationImage {
     margin-right: 10%;
+    width: 90%;
 }
