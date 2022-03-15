@@ -7,6 +7,19 @@
     height: 900px;
     overflow: hidden;
 }
+
+@media only screen and (max-height: 900px) {
+    #container {
+        background-image: url('../../../assets/MainTree.png'),url('../../../assets/Path.png');
+        background-size: 40%,60%;
+        background-repeat: no-repeat;
+        background-position: 87% 100%,100%;
+        height: 700px;
+        overflow: hidden;
+    }
+}
+
+
 #title {
     margin: 20px;
     font-size: 70px;
