@@ -24,8 +24,8 @@ function Navigation() {
         </Col>
         <Col>
           {/* will update with game link once beta is hosted */}
-          <a href="https://discord.gg/xtbhmYuAb8" target="_blank">
-            <button id="playButton">Become a Beta Tester</button>
+          <a href="https://planterplanetgame.netlify.app/" target="_blank">
+            <button id="playButton">Play Now</button>
           </a>
         </Col>
       </Row>

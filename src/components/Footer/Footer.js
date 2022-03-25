@@ -13,7 +13,7 @@ function Footer() {
         <p id="copyright">@2022 Planter Planet</p>
         <p id="footerTitle">Planter Planet</p>
                         {/* will update with game link once beta is hosted */}
-                        <a target = "_blank" href = "https://discord.gg/xtbhmYuAb8"><button id = "playButton">Become a Beta Tester</button></a>
+                        <a target = "_blank" href = "https://planterplanetgame.netlify.app/"><button id = "playButton">Play Now</button></a>
       </div>
       <hr></hr>
       <div>
